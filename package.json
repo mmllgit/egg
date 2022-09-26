@@ -1,0 +1,32 @@
+{
+  "name": "myegg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev",
+    "cov": "egg-bin cov",
+    "start": "egg-scripts start --daemon --env=prod",
+    "stop": "egg-scripts stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "egg": "^2.36.0",
+    "egg-cors": "^2.2.3",
+    "egg-multipart": "^2.13.1",
+    "egg-mysql": "^3.1.1",
+    "egg-scripts": "^2.17.0",
+    "moment": "^2.29.4",
+    "mz": "^2.7.0",
+    "mz-modules": "^2.1.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^5.1.2",
+    "egg-jwt": "^3.1.7",
+    "egg-mock": "^4.2.1"
+  }
+}

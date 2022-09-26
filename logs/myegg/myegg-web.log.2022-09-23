@@ -1,0 +1,588 @@
+2022-09-22 00:03:33,603 WARN 15612 [-/127.0.0.1/-/23ms POST /updateInfo] nodejs.UnauthorizedError: invalid token
+    at H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:75:12)
+    at decoded (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:114:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 15612
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:03:56,007 ERROR 15612 [-/127.0.0.1/-/63ms POST /updateInfo] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userPassword' in 'field list'
+    at Query.Sequence._packetToError (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Pool.js:199:23)
+    at H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:65:19)
+    at H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:54:5
+    sql: UPDATE `user_info` SET `user_number` = '2019212097', `user_name` = 'dxl', `userPassword` = '' WHERE `user_number` = '2019212097'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userPassword' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user_info` SET `user_number` = '2019212097', `user_name` = 'dxl', `userPassword` = '' WHERE `user_number` = '2019212097'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 15612
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:04:53,487 ERROR 15612 [-/127.0.0.1/-/9ms POST /updateInfo] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userPassword' in 'field list'
+    at Query.Sequence._packetToError (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Pool.js:199:23)
+    at H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:65:19)
+    at H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:54:5
+    sql: UPDATE `user_info` SET `user_number` = '2019212097', `user_name` = 'dxl', `userPassword` = '' WHERE `user_number` = '2019212097'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userPassword' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user_info` SET `user_number` = '2019212097', `user_name` = 'dxl', `userPassword` = '' WHERE `user_number` = '2019212097'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 15612
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:17:22,008 ERROR 10992 [-/127.0.0.1/-/17ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 10992
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:18:17,474 ERROR 10992 [-/127.0.0.1/-/5ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 10992
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:19:16,370 ERROR 11200 [-/127.0.0.1/-/17ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 11200
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:20:15,545 ERROR 5020 [-/127.0.0.1/-/15ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 5020
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:20:32,784 ERROR 15892 [-/127.0.0.1/-/38ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:85:26)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 15892
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:21:00,614 ERROR 13052 [-/127.0.0.1/-/24ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:84:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13052
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:22:01,777 ERROR 13052 [-/127.0.0.1/-/6ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:84:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13052
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:22:13,895 ERROR 13052 [-/127.0.0.1/-/6ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:84:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13052
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:22:42,974 ERROR 13052 [-/127.0.0.1/-/4ms POST /login] nodejs.TypeError: Cannot read properties of null (reading 'user_password')
+    at userInfo.login (H:\egg\myEgg\app\controller\userInfo.js:15:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (H:\egg\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:95:5)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+
+pid: 13052
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:23:17,784 ERROR 13052 [-/127.0.0.1/-/53ms POST /login] nodejs.TypeError: Cannot read properties of null (reading 'user_password')
+    at userInfo.login (H:\egg\myEgg\app\controller\userInfo.js:15:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (H:\egg\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:95:5)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+
+pid: 13052
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:26:35,264 ERROR 1008 [-/127.0.0.1/-/12ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 1008
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:27:30,584 ERROR 16160 [-/127.0.0.1/-/19ms POST /login] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.login (H:\egg\myEgg\app\controller\userInfo.js:22:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 16160
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 00:29:11,835 ERROR 9064 [-/127.0.0.1/-/12ms POST /updateInfo] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 9064
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:06:04,067 ERROR 7516 [-/127.0.0.1/-/14ms POST /register] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.register (H:\egg\myEgg\app\controller\userInfo.js:60:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 7516
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:07:33,703 ERROR 13820 [-/127.0.0.1/-/14ms POST /register] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.register (H:\egg\myEgg\app\controller\userInfo.js:61:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13820
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:08:04,252 ERROR 13820 [-/127.0.0.1/-/7ms POST /register] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.register (H:\egg\myEgg\app\controller\userInfo.js:61:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13820
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:08:26,069 ERROR 8804 [-/127.0.0.1/-/17ms POST /register] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.register (H:\egg\myEgg\app\controller\userInfo.js:61:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 8804
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:09:17,859 ERROR 13228 [-/127.0.0.1/-/17ms POST /register] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at Hash.update (node:internal/crypto/hash:105:11)
+    at getMd5Data (H:\egg\myEgg\app\controller\userInfo.js:7:35)
+    at userInfo.register (H:\egg\myEgg\app\controller\userInfo.js:61:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 13228
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:15:13,775 WARN 13228 [-/127.0.0.1/-/4ms POST /removeUser] nodejs.UnauthorizedError: invalid token
+    at H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:75:12)
+    at decoded (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:114:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+name: "UnauthorizedError"
+message: "invalid token"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"invalid token"}
+pid: 13228
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:24:51,594 ERROR 12764 [-/127.0.0.1/-/24ms POST /updateInfo] nodejs.TypeError: Cannot destructure property 'user_password' of '(intermediate value)' as it is null.
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:82:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (H:\egg\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12764
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:26:02,601 ERROR 10956 [-/127.0.0.1/-/27ms POST /updateInfo] nodejs.TypeError: Cannot destructure property 'user_password' of '(intermediate value)' as it is null.
+    at userInfo.updateInfo (H:\egg\myEgg\app\controller\userInfo.js:83:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (H:\egg\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10956
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:27:14,440 WARN 10956 [-/127.0.0.1/-/16ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 86, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"1234567\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10956
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:28:02,356 WARN 10956 [-/127.0.0.1/-/0ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 86, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"1234567\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10956
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:28:30,148 WARN 10956 [-/127.0.0.1/-/1ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10956
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:28:56,287 WARN 10956 [-/127.0.0.1/-/0ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10956
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:29:01,527 WARN 10648 [-/127.0.0.1/-/20ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10648
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:29:11,918 WARN 10648 [-/127.0.0.1/-/2ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 10648
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:29:28,805 WARN 3988 [-/127.0.0.1/-/24ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_passwoerd\":\"12345\"\r\n}"
+pid: 3988
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:30:31,576 WARN 3988 [-/127.0.0.1/-/2ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_password\":\"12345\"\r\n}"
+pid: 3988
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:31:52,810 WARN 3988 [-/127.0.0.1/-/1ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_password\":\"12345\"\r\n}"
+pid: 3988
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 10:32:34,177 WARN 15556 [-/127.0.0.1/-/21ms POST /updateInfo] nodejs.SyntaxError: Unexpected token ， in JSON at position 87, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"user_number\":\"12345678\",\r\n    \"user_name\":\"邓先阆\",\r\n    \"old_password\":\"12345678\"，\r\n    \"new_password\":\"12345\"\r\n}"
+pid: 15556
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 11:33:55,367 WARN 9420 [-/127.0.0.1/-/189ms POST /addLost] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 9420
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 11:54:11,585 WARN 3864 [-/127.0.0.1/-/4ms POST /addLost] nodejs.SyntaxError: Unexpected token ， in JSON at position 116, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:57:17)
+    at AsyncFunction.module.exports [as json] (H:\egg\myEgg\node_modules\.pnpm\co-body@6.1.0\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:85:19)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (H:\egg\myEgg\node_modules\.pnpm\egg@2.36.0\node_modules\egg\app\middleware\meta.js:18:5)
+status: 400
+body: "{\r\n    \"lost_name\":\"一卡通\",\r\n    \"lost_user_name\":\"邓先阆\",\r\n    \"lost_user_number\":\"2019212097\",\r\n    \"get_address\":\"二教\"，\r\n}"
+pid: 3864
+hostname: DESKTOP-9KLCLN9
+
+2022-09-22 12:13:08,476 ERROR 1096 [-/127.0.0.1/-/28ms POST /deleteLost] nodejs.TypeError: Cannot read properties of undefined (reading 'deleteLost')
+    at lostList.deleteLost (H:\egg\myEgg\app\controller\lostList.js:64:43)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+
+pid: 1096
+hostname: DESKTOP-9KLCLN9
+

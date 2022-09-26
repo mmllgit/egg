@@ -1,0 +1,950 @@
+2022-09-24 00:33:06,043 ERROR 8248 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8248
+hostname: DESKTOP-9KLCLN9
+
+2022-09-24 16:07:36,857 ERROR 3416 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3416
+hostname: DESKTOP-9KLCLN9
+
+2022-09-24 20:38:40,983 ERROR 3416 nodejs.ClusterClientNoResponseError: client no response in 10805193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (H:\egg\myEgg\node_modules\.pnpm\cluster-client@3.1.1\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3416
+hostname: DESKTOP-9KLCLN9
+
+2022-09-24 21:49:47,577 ERROR 3416 nodejs.ClusterClientNoResponseError: client no response in 4264706ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (H:\egg\myEgg\node_modules\.pnpm\cluster-client@3.1.1\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 3416
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:11:41,688 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:14,953 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:14,956 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:27,788 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:27,792 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:33,541 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:33,544 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:35,706 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:35,712 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:40,196 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:40,231 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:42,908 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:13:42,911 ERROR 19392 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19392
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:14:35,653 ERROR 8268 [-/127.0.0.1/-/172ms POST /register] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE9\x82\x93\xE5\x85\x88...' for column 'user_name' at row 1
+    at Query.Sequence._packetToError (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Pool.js:199:23)
+    at H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:65:19)
+    at H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user_info`(`user_name`, `user_number`, `user_password`) VALUES('邓先阆', '2019212097', 'fcea920f7412b5da7be0cf42b8c93759')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect string value: '\\xE9\\x82\\x93\\xE5\\x85\\x88...' for column 'user_name' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `user_info`(`user_name`, `user_number`, `user_password`) VALUES('邓先阆', '2019212097', 'fcea920f7412b5da7be0cf42b8c93759')"
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 8268
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 16:18:28,618 ERROR 8268 [-/127.0.0.1/-/134ms POST /register] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE9\x82\x93\xE5\x85\x88...' for column 'user_name' at row 1
+    at Query.Sequence._packetToError (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:520:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (H:\egg\myEgg\node_modules\.pnpm\mysql@2.18.1\node_modules\mysql\lib\Pool.js:199:23)
+    at H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (H:\egg\myEgg\node_modules\.pnpm\pify@2.3.0\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (H:\egg\myEgg\node_modules\.pnpm\ali-rds@3.4.0\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:65:19)
+    at H:\egg\myEgg\node_modules\.pnpm\co@4.6.0\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user_info`(`user_name`, `user_number`, `user_password`) VALUES('邓先阆', '2019212097', 'fcea920f7412b5da7be0cf42b8c93759')
+code: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELD"
+errno: 1366
+sqlMessage: "Incorrect string value: '\\xE9\\x82\\x93\\xE5\\x85\\x88...' for column 'user_name' at row 1"
+sqlState: "HY000"
+index: 0
+sql: "INSERT INTO `user_info`(`user_name`, `user_number`, `user_password`) VALUES('邓先阆', '2019212097', 'fcea920f7412b5da7be0cf42b8c93759')"
+name: "ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError"
+pid: 8268
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 21:34:15,525 ERROR 13336 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13336
+hostname: DESKTOP-9KLCLN9
+
+2022-09-25 21:52:47,711 ERROR 13336 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13336
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:27:12,392 ERROR 10268 [-/127.0.0.1/-/94ms POST /upload] nodejs.RequestError: getaddrinfo ENOENT httpbin.org, POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -4058
+code: "ENOENT"
+syscall: "getaddrinfo"
+hostname: "httpbin.org"
+name: "RequestError"
+data: undefined
+path: "/post"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":76,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 10268
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:31:21,277 ERROR 10268 [-/127.0.0.1/-/10ms POST /upload] nodejs.RequestError: getaddrinfo ENOENT httpbin.org, POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -4058
+code: "ENOENT"
+syscall: "getaddrinfo"
+hostname: "httpbin.org"
+name: "RequestError"
+data: undefined
+path: "/post"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 10268
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:41:11,596 ERROR 10008 [-/127.0.0.1/-/36ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 10008
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:41:24,391 ERROR 10008 [-/127.0.0.1/-/3ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 10008
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:41:40,847 ERROR 10008 [-/127.0.0.1/-/4ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 10008
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:41:59,043 ERROR 10008 [-/127.0.0.1/-/1ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 10008
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:42:19,894 ERROR 19108 [-/127.0.0.1/-/17ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:10:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 19108
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:57:30,250 ERROR 11756 [-/127.0.0.1/-/308ms POST /upload] nodejs.RequestError: getaddrinfo ENOENT httpbin.org, POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -4058
+code: "ENOENT"
+syscall: "getaddrinfo"
+hostname: "httpbin.org"
+name: "RequestError"
+data: undefined
+path: "/post"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":67,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 11756
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 10:59:40,859 ERROR 17840 [-/127.0.0.1/-/70ms POST /upload] nodejs.RequestError: getaddrinfo ENOENT httpbin.org, POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -4058
+code: "ENOENT"
+syscall: "getaddrinfo"
+hostname: "httpbin.org"
+name: "RequestError"
+data: undefined
+path: "/post"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":37,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 17840
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:01:37,108 ERROR 6092 [-/127.0.0.1/-/32ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:38)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6092
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:02:21,055 ERROR 6092 [-/127.0.0.1/-/7ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:9:38)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6092
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:05:19,320 ERROR 11544 [-/127.0.0.1/-/16ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at upload (H:\egg\myEgg\app\controller\upload.js:10:33)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 11544
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:09:54,247 ERROR 11060 [-/127.0.0.1/-/80ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\86152\AppData\Local\Temp\egg-multipart-tmp\myegg\2022\09\26\11\d14350a4-5e22-495f-83fd-0da3f7f2131c.png' -> 'H:\egg\myEgg\app\public\upload\!�.png'
+ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\86152\AppData\Local\Temp\egg-multipart-tmp\myegg\2022\09\26\11\d14350a4-5e22-495f-83fd-0da3f7f2131c.png' -> 'H:\egg\myEgg\app\public\upload\!�.png'
+errno: -4058
+code: "ENOENT"
+syscall: "copyfile"
+path: "C:\\Users\\86152\\AppData\\Local\\Temp\\egg-multipart-tmp\\myegg\\2022\\09\\26\\11\\d14350a4-5e22-495f-83fd-0da3f7f2131c.png"
+dest: "H:\\egg\\myEgg\\app\\public\\upload\\!�.png"
+name: "ENOENTError"
+pid: 11060
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:11:11,653 ERROR 11060 [-/127.0.0.1/-/21ms POST /upload] nodejs.ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\86152\AppData\Local\Temp\egg-multipart-tmp\myegg\2022\09\26\11\74c2b27e-c861-4b5e-94a7-3aadc2c8fa08.png' -> 'H:\egg\myEgg\app\public\upload\!�.png'
+ENOENTError: ENOENT: no such file or directory, copyfile 'C:\Users\86152\AppData\Local\Temp\egg-multipart-tmp\myegg\2022\09\26\11\74c2b27e-c861-4b5e-94a7-3aadc2c8fa08.png' -> 'H:\egg\myEgg\app\public\upload\!�.png'
+errno: -4058
+code: "ENOENT"
+syscall: "copyfile"
+path: "C:\\Users\\86152\\AppData\\Local\\Temp\\egg-multipart-tmp\\myegg\\2022\\09\\26\\11\\74c2b27e-c861-4b5e-94a7-3aadc2c8fa08.png"
+dest: "H:\\egg\\myEgg\\app\\public\\upload\\!�.png"
+name: "ENOENTError"
+pid: 11060
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:16:41,083 ERROR 15632 [-/127.0.0.1/-/43ms POST /upload] nodejs.ReferenceError: path is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:11:42)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15632
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:17:06,210 ERROR 18204 [-/127.0.0.1/-/45ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading 'put')
+    at upload (H:\egg\myEgg\app\controller\upload.js:12:34)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 18204
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:25:27,215 ERROR 4152 [-/127.0.0.1/-/99ms POST /upload] nodejs.RequestError: ENOENT: no such file or directory, open 'H:\egg\myEgg\files', POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+Error: ENOENT: no such file or directory, open 'H:\egg\myEgg\files'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "/post"
+name: "RequestError"
+data: undefined
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":44,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4152
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:26:22,607 ERROR 14136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:26:26,235 ERROR 4912 [-/127.0.0.1/-/88ms POST /upload] nodejs.RequestError: getaddrinfo ENOENT httpbin.org, POST https://httpbin.org/post -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"httpbin.org:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -4058
+code: "ENOENT"
+syscall: "getaddrinfo"
+hostname: "httpbin.org"
+name: "RequestError"
+data: undefined
+path: "/post"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":38,"keepAliveSocket":false,"requestUrls":["https://httpbin.org/post"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 4912
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:29:21,694 ERROR 13668 [-/127.0.0.1/-/33ms POST /upload] nodejs.ReferenceError: fs is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:10:5)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 13668
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:29:46,289 ERROR 10908 [-/127.0.0.1/-/41ms POST /upload] nodejs.ReferenceError: result is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:16:14)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 10908
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:33:03,607 ERROR 14136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:45:32,843 ERROR 11376 [-/127.0.0.1/-/32ms POST /upload] nodejs.ReferenceError: Blob is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:13:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 11376
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:47:15,166 ERROR 7432 [-/127.0.0.1/-/52ms POST /upload] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Object
+    at Object.writeFile (node:fs:2108:5)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:8)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 7432
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:57:05,394 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:57:14,081 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 11:59:05,024 ERROR 15468 [-/127.0.0.1/-/37ms POST /upload] nodejs.ReferenceError: encodeURIcomponent is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:13:13)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15468
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:12:43,681 ERROR 14624 [-/127.0.0.1/-/60ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 14624
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:13:38,898 ERROR 2836 [-/127.0.0.1/-/34ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2836
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:14:30,501 ERROR 16124 [-/127.0.0.1/-/17ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 16124
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:15:06,032 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:15:27,970 ERROR 17628 [-/127.0.0.1/-/39ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 17628
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:15:35,691 ERROR 17628 [-/127.0.0.1/-/19ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 17628
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:16:26,058 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:18:06,236 ERROR 6136 [-/127.0.0.1/-/58ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:15:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 6136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:18:45,131 ERROR 952 [-/127.0.0.1/-/45ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading 'split')
+    at upload (H:\egg\myEgg\app\controller\upload.js:14:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 952
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:19:15,082 ERROR 13636 [-/127.0.0.1/-/50ms POST /upload] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (H:\egg\myEgg\node_modules\.pnpm\jsonwebtoken@8.5.1\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (H:\egg\myEgg\node_modules\.pnpm\egg-jwt@3.1.7\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at upload (H:\egg\myEgg\app\controller\upload.js:15:21)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 13636
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:20:49,046 ERROR 6676 [-/127.0.0.1/-/45ms POST /upload] nodejs.ReferenceError: app is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:15:35)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 6676
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:31:09,835 ERROR 9888 [-/127.0.0.1/-/51ms POST /upload] nodejs.TypeError: Cannot destructure property 'user_number' of 'jwt.verify(...)' as it is undefined.
+    at upload (H:\egg\myEgg\app\controller\upload.js:15:13)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 9888
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:31:48,485 ERROR 1460 [-/127.0.0.1/-/52ms POST /upload] nodejs.ReferenceError: user_number is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:28:17)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 1460
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:32:13,982 ERROR 13256 [-/127.0.0.1/-/55ms POST /upload] nodejs.ReferenceError: user_number is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:25:17)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 13256
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:32:28,240 ERROR 3160 [-/127.0.0.1/-/45ms POST /upload] nodejs.ReferenceError: user_number is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:27:57)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 3160
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:32:58,105 ERROR 1328 [-/127.0.0.1/-/46ms POST /upload] nodejs.ReferenceError: user_number is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:27:57)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 1328
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:33:22,825 ERROR 1328 [-/127.0.0.1/-/16ms POST /upload] nodejs.ReferenceError: user_number is not defined
+    at upload (H:\egg\myEgg\app\controller\upload.js:27:57)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 1328
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 12:33:42,860 ERROR 11084 [-/127.0.0.1/-/52ms POST /upload] nodejs.TypeError: The "path" argument must be of type string. Received type number (NaN)
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:120:11)
+    at Object.join (node:path:429:7)
+    at upload (H:\egg\myEgg\app\controller\upload.js:27:29)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 11084
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 13:33:06,014 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 13:45:19,434 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 13:47:03,860 ERROR 5580 [-/127.0.0.1/-/45ms POST /upload] nodejs.TypeError: ctx.app.Service.verifyToken is not a function
+    at upload (H:\egg\myEgg\app\controller\upload.js:11:45)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 5580
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 13:47:27,303 ERROR 17984 [-/127.0.0.1/-/47ms POST /upload] nodejs.TypeError: Cannot read properties of undefined (reading 'verifyToken')
+    at upload (H:\egg\myEgg\app\controller\upload.js:11:41)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (H:\egg\myEgg\node_modules\.pnpm\egg-core@4.23.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (H:\egg\myEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (H:\egg\myEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at middleware (H:\egg\myEgg\node_modules\.pnpm\koa-jwt2@1.0.3\node_modules\koa-jwt2\lib\index.js:145:11)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+
+pid: 17984
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 13:57:02,998 ERROR 2136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2136
+hostname: DESKTOP-9KLCLN9
+
+2022-09-26 14:44:15,126 ERROR 17028 [-/127.0.0.1/-/114ms POST /login] nodejs.TypeError: ctx.crypto is not a function
+    at userInfo.login (H:\egg\myEgg\app\controller\userInfo.js:17:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async H:\egg\myEgg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (H:\egg\myEgg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (H:\egg\myEgg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (H:\egg\myEgg\node_modules\.pnpm\koa-bodyparser@4.3.0\node_modules\koa-bodyparser\index.js:95:5)
+    at async H:\egg\myEgg\node_modules\koa-static-cache\index.js:39:63
+
+pid: 17028
+hostname: DESKTOP-9KLCLN9
+
