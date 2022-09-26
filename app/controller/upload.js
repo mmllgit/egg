@@ -25,7 +25,9 @@ class upload extends Controller {
         ctx.body = {
           code: 200,
           msg: "上传成功",
-          data: null,
+          data: {
+            headUrl: `${app.config.Url}/userHead/${user_number + extname}`,
+          },
         };
       } else {
         ctx.body = {
