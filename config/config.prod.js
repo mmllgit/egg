@@ -18,4 +18,4 @@ exports.mysql = {
   agent: false,
 };
 
-exports.Url = 'http://47.108.173.86:7001'
+exports.Url = "http://47.108.173.86:7001/public";

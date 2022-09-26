@@ -9,5 +9,5 @@ module.exports = (app) => {
   router.post("/addLost", jwt, controller.lostList.addLost);
   router.post("/updateLost", jwt, controller.lostList.updateLost);
   router.post("/deleteLost", jwt, controller.lostList.deleteLost);
-  router.post("/upload", jwt, controller.upload.upload);
+  router.post("/updateHead", jwt, controller.upload.updateHead);
 };

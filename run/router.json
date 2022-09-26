@@ -120,8 +120,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/upload",
-    "regexp": "/^\\/upload(?:\\/(?=$))?$/",
+    "path": "/updateHead",
+    "regexp": "/^\\/updateHead(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"

@@ -369,7 +369,7 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "Url": "http://127.0.0.1:7001",
+    "Url": "http://127.0.0.1:7001/public",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [
       "jwt"

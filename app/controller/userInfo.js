@@ -3,6 +3,7 @@
 const Controller = require("egg").Controller;
 
 class userInfo extends Controller {
+  //登录
   async login() {
     const { ctx, app } = this;
     const { user_number, user_password } = ctx.request.body;
@@ -43,6 +44,7 @@ class userInfo extends Controller {
     }
   }
 
+  //注册
   async register() {
     const { ctx } = this;
     const { user_name, user_number, user_password } = ctx.request.body;
@@ -75,22 +77,15 @@ class userInfo extends Controller {
     }
   }
 
+  //更改其它信息
   async updateInfo() {
     const { ctx } = this;
-    const { user_number, user_name, old_password, new_password } =
-      ctx.request.body;
-    const { user_password } = await ctx.service.userInfo.findOne(user_number);
-    if (user_password !== ctx.helper.crypto(old_password)) {
-      return (ctx.body = {
-        code: 400,
-        msg: "旧密码错误",
-        data: null,
-      });
-    }
+    const { user_name, user_sign } = ctx.request.body;
+    const user_number = await ctx.service.verifyToken.verifyToken();
     const result = await ctx.service.userInfo.updateOne(
       user_number,
       user_name,
-      ctx.helper.crypto(new_password)
+      user_sign
     );
     if (result.affectedRows === 1) {
       ctx.body = {
@@ -107,6 +102,7 @@ class userInfo extends Controller {
     }
   }
 
+  //移除人员
   async removeUser() {
     const { ctx } = this;
     const { user_number } = ctx.request.body;
