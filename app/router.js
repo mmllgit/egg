@@ -10,4 +10,11 @@ module.exports = (app) => {
   router.post("/updateLost", jwt, controller.lostList.updateLost);
   router.post("/deleteLost", jwt, controller.lostList.deleteLost);
   router.post("/updateHead", jwt, controller.upload.updateHead);
+  router.post(
+    "/getSlideShowImage",
+    jwt,
+    controller.slideShow.getSlideShowImage
+  );
+  router.post("/deleteImage", jwt, controller.slideShow.deleteImage);
+  router.post("/uploadSlideImage", jwt, controller.slideShow.uploadSlideImage);
 };

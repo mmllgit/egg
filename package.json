@@ -27,6 +27,7 @@
   "devDependencies": {
     "egg-bin": "^5.1.2",
     "egg-jwt": "^3.1.7",
-    "egg-mock": "^4.2.1"
+    "egg-mock": "^4.2.1",
+    "iconv-lite": "^0.6.3"
   }
 }
