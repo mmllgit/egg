@@ -61,10 +61,7 @@ class SlideShow extends Controller {
     const { files } = ctx.request;
     try {
       files.map(async (file) => {
-        const targetPath = path.join(
-          "app/public/slideShow",
-          ctx.helper.iconv2utf8(file.filename)
-        );
+        const targetPath = path.join("app/public/slideShow", file.filename);
         const source = fs.createReadStream(file.filepath);
         const target = fs.createWriteStream(targetPath);
         await pump(source, target);

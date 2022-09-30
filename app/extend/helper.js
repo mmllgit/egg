@@ -1,15 +1,18 @@
 const moment = require("moment");
 
-exports.relativeTime = (time) => moment(new Date(time * 1000)).fromNow();
+exports.relativeTime = (time) => moment(time).fromNow();
+exports.detailTime = () => moment().format("YYYY-MM-DD HH:mm:ss");
 exports.nowDate = () => moment().format("YYYY-MM-DD");
 
-const { v4: uuidv4 } = require("uuid");
+const { v4: uuidV4 } = require("uuid");
 
-exports.uuid = () => uuidv4();
+exports.uuid = () => uuidV4();
 
 const Crypto = require("crypto");
 exports.crypto = (str) => Crypto.createHash("md5").update(str).digest("hex");
 
-const iconv = require("iconv-lite");
+const { app } = this;
+exports.splitImage = (imageUrls) =>
+  imageUrls.split(";").map((item) => `${app.config.Url}/postImages/${item}`);
 
-exports.iconv2utf8 = (filename) => iconv.decode(filename, "gbk");
+exports.joinImage = (imageUrlList) => imageUrlList.join(";");

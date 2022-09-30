@@ -17,4 +17,8 @@ module.exports = (app) => {
   );
   router.post("/deleteImage", jwt, controller.slideShow.deleteImage);
   router.post("/uploadSlideImage", jwt, controller.slideShow.uploadSlideImage);
+  router.post("/releasePost", jwt, controller.posts.releasePost);
+  router.post("/getPostList", jwt, controller.posts.postList);
+  router.post("/likeStar", jwt, controller.posts.likeStar);
+  router.post("/removePost", jwt, controller.posts.removePost);
 };
