@@ -20,6 +20,7 @@ class posts extends Service {
       result[i]["post_likes_list"] = result[i]["post_likes_list"]
         .split(";")
         .filter((item) => item.length > 0);
+      result[i]["is_like"] = result[i]["post_likes_list"].includes(user_name);
       result[i]["post_last_time"] = ctx.helper.relativeTime(
         result[i]["post_release_time"]
       );
