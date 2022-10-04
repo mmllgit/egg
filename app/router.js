@@ -5,6 +5,7 @@ module.exports = (app) => {
   router.post("/updateInfo", jwt, controller.userInfo.updateInfo);
   router.post("/removeUser", jwt, controller.userInfo.removeUser);
   router.post("/getLostList", jwt, controller.lostList.getLostList);
+  router.post("/getAllUser", jwt, controller.userInfo.getAllUser);
   router.post("/getLostOne", jwt, controller.lostList.getLostOne);
   router.post("/addLost", jwt, controller.lostList.addLost);
   router.post("/updateLost", jwt, controller.lostList.updateLost);
