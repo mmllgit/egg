@@ -129,6 +129,17 @@ class userInfo extends Controller {
       };
     }
   }
+
+  //获取所有人员
+  async getAllUser() {
+    const { ctx } = this;
+    const result = await ctx.service.userInfo.getAllUser();
+    ctx.body = {
+      code: 200,
+      msg: "获取成功",
+      data: result,
+    };
+  }
 }
 
 module.exports = userInfo;

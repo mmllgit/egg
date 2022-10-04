@@ -52,6 +52,11 @@ class userInfo extends Service {
     });
     return result;
   }
+
+  async getAllUser() {
+    const result = await this.app.mysql.select("user_info");
+    return result;
+  }
 }
 
 module.exports = userInfo;
