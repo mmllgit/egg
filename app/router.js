@@ -23,4 +23,6 @@ module.exports = (app) => {
   router.post("/likeStar", jwt, controller.posts.likeStar);
   router.post("/removePost", jwt, controller.posts.removePost);
   router.post("/getSelfPosts", jwt, controller.posts.getSelfPosts);
+  router.post("/readCSVFile", jwt, controller.recommend.readCSVFile);
+  router.post("/getRecommendList", jwt, controller.recommend.getRecommendList);
 };

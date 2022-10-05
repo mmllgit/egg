@@ -22,5 +22,5 @@ exports.cluster = {
 
 exports.multipart = {
   mode: "file",
-  fileExtensions: [".md"],
+  fileExtensions: [".md", ".csv"],
 };
