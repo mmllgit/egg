@@ -22,4 +22,5 @@ module.exports = (app) => {
   router.post("/getPostList", jwt, controller.posts.postList);
   router.post("/likeStar", jwt, controller.posts.likeStar);
   router.post("/removePost", jwt, controller.posts.removePost);
+  router.post("/getSelfPosts", jwt, controller.posts.getSelfPosts);
 };

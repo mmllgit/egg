@@ -85,6 +85,16 @@ class posts extends Service {
     return result;
   }
 
+  async getSelfPosts() {
+    const { ctx } = this;
+    const user_number = await ctx.service.verifyToken.verifyToken();
+    const selfPosts = await ctx.service.posts.getPostList();
+    const result = selfPosts.filter((post) => {
+      return post["user_number"] === user_number;
+    });
+    return result;
+  }
+
   async removePost(post_id) {
     const { app, ctx } = this;
     const user_number = await ctx.service.verifyToken.verifyToken();

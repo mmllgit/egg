@@ -85,6 +85,16 @@ class posts extends Controller {
     };
   }
 
+  async getSelfPosts() {
+    const { ctx } = this;
+    const result = await ctx.service.posts.getSelfPosts();
+    ctx.body = {
+      code: 200,
+      msg: "获取成功",
+      data: result,
+    };
+  }
+
   async removePost() {
     const { ctx } = this;
     const { post_id } = ctx.request.body;
