@@ -6,6 +6,7 @@ class posts extends Service {
   async getPostList() {
     const { ctx, app } = this;
     const result = (await app.mysql.select("posts")) || [];
+    const get_user_number = await ctx.service.verifyToken.verifyToken();
     const len = result.length;
     for (let i = 0; i < len; i++) {
       const { user_number } = result[i];
@@ -20,10 +21,18 @@ class posts extends Service {
       result[i]["post_likes_list"] = result[i]["post_likes_list"]
         .split(";")
         .filter((item) => item.length > 0);
-      result[i]["is_like"] = result[i]["post_likes_list"].includes(user_name);
+      result[i]["is_like"] =
+        result[i]["post_likes_list"].includes(get_user_number);
       result[i]["post_last_time"] = ctx.helper.relativeTime(
         result[i]["post_release_time"]
       );
+      result[i]["post_likes_name_list"] = [];
+      for (let j = 0; j < result[i]["post_likes_list"].length; j++) {
+        const { user_name } = await ctx.service.userInfo.findOne(
+          result[i]["post_likes_list"][j]
+        );
+        result[i]["post_likes_name_list"].push(user_name);
+      }
     }
     return result;
   }
@@ -55,7 +64,7 @@ class posts extends Service {
     const post = await ctx.service.posts.getOnePost(post_id);
     const postLikeList = post.post_likes_list
       .split(";")
-      .filter((item) => item > 0);
+      .filter((item) => item.length > 0);
     const options = {
       where: {
         post_id,
