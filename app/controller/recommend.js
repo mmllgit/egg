@@ -16,17 +16,13 @@ class recommend extends Controller {
     const target = fs.createWriteStream(targetPath);
     await pump(source, target);
     const inputFilePath = `app/public/recommendCSV/${fileName}`;
-    const input = fs.readFileSync(inputFilePath);
-    const indexArray = [0, 2, 4];
-    const recommendList = iconv
-      .decode(input, "gbk")
-      .split("\r")
+    const input = fs.readFileSync(inputFilePath, "utf-8");
+    const recommendList = input
+      .split("\r\r\n")
       .map((item) => {
         return item.split(",");
       })
-      .filter((item, index) => {
-        return indexArray.includes(index);
-      });
+      .slice(0, 3);
     const result = await ctx.service.recommend.readCSVFile(recommendList);
     fs.rm(inputFilePath, (err) => {});
     if (result) {
@@ -46,6 +42,24 @@ class recommend extends Controller {
       msg: "获取成功",
       data: result,
     };
+  }
+
+  async deleteAllRecommend() {
+    const { ctx } = this;
+    const result = await ctx.service.recommend.deleteAllRecommend();
+    if (result) {
+      ctx.body = {
+        code: 200,
+        msg: "删除成功",
+        data: null,
+      }
+    } else {
+      ctx.body = {
+        code: 200,
+        msg: "删除失败",
+        data: null,
+      }
+    }
   }
 }
 

@@ -8,6 +8,7 @@ class recommend extends Service {
     const len = recommendList[0].length;
     let resultFlag = true;
     for (let i = 0; i < len; i++) {
+      await app.mysql.query("SET NAMES utf8mb4");
       const result = await app.mysql.insert("recommend", {
         recommend_id: ctx.helper.uuid(),
         recommend_title: recommendList[0][i],
@@ -24,7 +25,22 @@ class recommend extends Service {
   async getRecommendList() {
     const { app } = this;
     const result = await app.mysql.select("recommend");
-    return result
+    return result;
+  }
+
+  async deleteAllRecommend() {
+    const { app } = this;
+    let flag = true;
+    const recommendList = await app.mysql.select("recommend");
+    for (let i = 0; i < recommendList.length; i++) {
+      const result = await app.mysql.delete("recommend", {
+        recommend_id: recommendList[i].recommend_id,
+      });
+      if (result.affectedRows !== 1) {
+        flag = false;
+      }
+    }
+    return flag;
   }
 }
 

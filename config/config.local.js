@@ -11,6 +11,8 @@ exports.mysql = {
     password: "123456",
     // 数据库名
     database: "eggTest",
+    //字符集
+    charset: "utf8mb4",
   },
   // 是否加载到 app 上，默认开启
   app: true,

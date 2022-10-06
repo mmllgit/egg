@@ -25,4 +25,9 @@ module.exports = (app) => {
   router.post("/getSelfPosts", jwt, controller.posts.getSelfPosts);
   router.post("/readCSVFile", jwt, controller.recommend.readCSVFile);
   router.post("/getRecommendList", jwt, controller.recommend.getRecommendList);
+  router.post(
+    "/deleteAllRecommend",
+    jwt,
+    controller.recommend.deleteAllRecommend
+  );
 };
