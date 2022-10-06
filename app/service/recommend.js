@@ -5,7 +5,7 @@ const Service = require("egg").Service;
 class recommend extends Service {
   async readCSVFile(recommendList) {
     const { app, ctx } = this;
-    const len = recommendList[0].length;
+    const len = recommendList[1].length;
     let resultFlag = true;
     for (let i = 0; i < len; i++) {
       await app.mysql.query("SET NAMES utf8mb4");

@@ -5,7 +5,10 @@ const Service = require("egg").Service;
 class posts extends Service {
   async getPostList() {
     const { ctx, app } = this;
-    const result = (await app.mysql.select("posts")) || [];
+    const result =
+      (await app.mysql.select("posts", {
+        orders: [["post_release_time", "desc"]],
+      })) || [];
     const get_user_number = await ctx.service.verifyToken.verifyToken();
     const len = result.length;
     for (let i = 0; i < len; i++) {

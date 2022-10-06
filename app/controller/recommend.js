@@ -23,6 +23,7 @@ class recommend extends Controller {
         return item.split(",");
       })
       .slice(0, 3);
+    console.log(recommendList[1])
     const result = await ctx.service.recommend.readCSVFile(recommendList);
     fs.rm(inputFilePath, (err) => {});
     if (result) {
@@ -52,13 +53,13 @@ class recommend extends Controller {
         code: 200,
         msg: "删除成功",
         data: null,
-      }
+      };
     } else {
       ctx.body = {
         code: 200,
         msg: "删除失败",
         data: null,
-      }
+      };
     }
   }
 }
