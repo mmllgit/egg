@@ -4,13 +4,13 @@ exports.mysql = {
     // host
     host: "localhost",
     // 端口号
-    port: "3300",
+    port: "3306",
     // 用户名
-    user: "eggTest",
+    user: "mmll",
     // 密码
-    password: "123456",
+    password: "mmll528718",
     // 数据库名
-    database: "eggTest",
+    database: "yanlu",
     //字符集
     charset: "utf8mb4",
   },

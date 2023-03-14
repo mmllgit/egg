@@ -30,4 +30,8 @@ module.exports = (app) => {
     jwt,
     controller.recommend.deleteAllRecommend
   );
+  router.get("/todo/getTodo", jwt, controller.todoList.getTodoList);
+  router.post("/todo/add", jwt, controller.todoList.addTodo);
+  router.delete("/todo/delete", jwt, controller.todoList.deleteTodo);
+  router.put("/todo/update", jwt, controller.todoList.updateTodo)
 };
