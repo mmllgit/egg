@@ -6,7 +6,11 @@ class todoList extends Controller {
   async getTodoList() {
     const { ctx } = this;
     const { time } = ctx.request.query;
-    const result = await ctx.service.todoList.getTodoList(time);
+    const user_number = await ctx.service.verifyToken.verifyToken();
+    const result = await ctx.service.todoList.getTodoList({
+      user_number,
+      time,
+    });
     ctx.body = {
       code: 200,
       msg: "获取成功",
@@ -17,12 +21,14 @@ class todoList extends Controller {
   async addTodo() {
     const { ctx } = this;
     const todo_id = ctx.helper.uuid();
+    const user_number = await ctx.service.verifyToken.verifyToken();
     const { time, title, detail } = ctx.request.body;
     const result = await ctx.service.todoList.addTodo({
       time,
       title,
       detail,
       todo_id,
+      user_number,
     });
     if (result.affectedRows === 1) {
       ctx.body = {

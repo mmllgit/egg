@@ -3,8 +3,11 @@
 const Service = require("egg").Service;
 
 class TodoList extends Service {
-  async getTodoList(time) {
-    const result = (await this.app.mysql.select("todo_list", { time })) || [];
+  async getTodoList(todoMsg) {
+    const result =
+      (await this.app.mysql.select("todo_list", {
+        where: todoMsg,
+      })) || [];
     return result;
   }
 
